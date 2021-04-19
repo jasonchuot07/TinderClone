@@ -7,7 +7,7 @@ Packages used:
 - react-responsive-carousel
 - react-tinder-card
 
-### Tinder Screenshot
+## Tinder Screenshot
 ![alt text](Tinder.png)
 
 #### Used NodeJs Express server and fetch data from MongoDB
