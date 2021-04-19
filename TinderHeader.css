@@ -1,0 +1,28 @@
+.header {
+  padding: 5px 10px;
+  z-index: 100;
+  border-bottom: 1px solid #f9f9f9;
+}
+
+.header-logo {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 40px;
+}
+
+.btn-border:focus {
+  outline: none;
+}
+
+.flex-center-between, .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=TinderHeader.css.map */

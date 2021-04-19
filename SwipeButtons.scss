@@ -1,0 +1,92 @@
+.swipeButtons {
+    position: absolute;
+    bottom: 10%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 70px;
+    z-index: 2000;
+    .swipeButtons_container {
+        position: relative;
+        min-width: 350px;
+        max-width: 375px;
+        padding: 5px 8px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .MuiIconButton-root {
+        padding: 0px !important;
+        background-color: white;
+        width: 55px;
+        height: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 10px 53px 0px rgba(0,0,0,0.2) !important;
+        .MuiSvgIcon-fontSizeLarge {
+            font-size: 45px;
+        }
+        &:hover {
+            width: 60px;
+            height: 60px;
+            background-color: white;
+            .MuiSvgIcon-fontSizeLarge {
+                font-size: 50px;
+                font-weight: bolder;
+            }
+        }
+    }
+    .btn-large {
+        height: 65px;
+        width: 65px;
+        &:hover {
+            .MuiSvgIcon-fontSizeLarge {
+                font-size: 50px;
+            }
+            width: 70px !important;
+            height: 70px !important;
+        }
+    }
+}
+
+.swipeButtons_repeat {
+    color: #f5b748 !important;
+}
+.swipeButtons_left {
+    color: #ec5e6f !important;
+}
+.swipeButtons_star {
+    color: #62b4f9 !important;
+}
+.swipeButtons_right {
+    color: #76e2b3 !important;
+}
+.swipeButtons_lightning {
+    color: #915dd1 !important;
+}
+
+
+.btn-border {
+    &:focus {
+        outline: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .swipeButtons {
+        bottom: 1% !important;
+    }
+    .swipeButtons_container {
+        padding: 0px 2rem !important;
+        min-width: 100% !important;
+        max-width: 100% !important;
+    }
+}
+
+@media (max-height: 700px) {
+    .swipeButtons {
+        bottom: 16%;
+    }
+
+}

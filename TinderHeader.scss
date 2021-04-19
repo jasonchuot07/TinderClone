@@ -1,0 +1,27 @@
+.header {
+    @extend .flex-center-between;
+    padding: 5px 10px;
+    z-index: 100;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.header-icon {
+    
+}
+
+.header-logo {
+    object-fit: contain;
+    height: 40px;
+}
+
+.btn-border {
+    &:focus {
+        outline: none;
+    }
+}
+
+.flex-center-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

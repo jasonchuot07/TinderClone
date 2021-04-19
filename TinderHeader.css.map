@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EAEJ,OAAO,EAAE,QAAQ;EACjB,OAAO,EAAE,GAAG;EACZ,aAAa,EAAE,iBAAiB;CACnC;;AAMD,AAAA,YAAY,CAAC;EACT,UAAU,EAAE,OAAO;EACnB,MAAM,EAAE,IAAI;CACf;;AAED,AACI,WADO,AACN,MAAM,CAAC;EACJ,OAAO,EAAE,IAAI;CAChB;;AAGL,AAAA,oBAAoB,EAtBpB,OAAO,CAsBc;EACjB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;CACtB",
+    "sources": [
+        "TinderHeader.scss"
+    ],
+    "names": [],
+    "file": "TinderHeader.css"
+}

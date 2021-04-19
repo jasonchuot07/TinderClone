@@ -1,0 +1,327 @@
+.tinder__side {
+  min-width: 325px;
+  max-width: 375px;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-right: 1px solid #e8e8e8;
+}
+
+.tinder__side .tinder__side__info__box {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.tinder__side__navbar {
+  height: 73px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0rem 2rem;
+  -webkit-box-shadow: 0px 14px 11px -14px rgba(0, 0, 0, 0.35);
+          box-shadow: 0px 14px 11px -14px rgba(0, 0, 0, 0.35);
+  background: linear-gradient(262deg, #ff7854, #fd267d);
+}
+
+.tinder__side__navbar .MuiButtonBase-root {
+  padding: 0px !important;
+}
+
+.tinder__side__name {
+  font-size: 23px;
+  color: white;
+  font-weight: lighter;
+}
+
+.tinder__side__avatar {
+  border: 2px solid white;
+  margin-right: 1rem;
+}
+
+.tinder__side__meetingbox {
+  background-color: transparent;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid rgba(255, 255, 255, 0.535);
+  border-radius: 50%;
+  width: 40px;
+  height: 35px;
+}
+
+.tinder__side__meetingbox:focus {
+  outline: none;
+}
+
+.tinder__side__meeting {
+  color: white;
+}
+
+.tinder__side__info {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: transparent;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+}
+
+.tinder__side__info .MuiAvatar-root {
+  width: 35px !important;
+  height: 35px !important;
+}
+
+.tinder__side__info .MuiAvatar-colorDefault {
+  background-color: salmon !important;
+}
+
+.tinder__side__info:focus {
+  outline: none;
+}
+
+.tinder__side__info__box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: none;
+}
+
+.tinder__side__info__box #simple-tabpanel-1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.swipe-tabs {
+  min-height: unset !important;
+  padding: 0px 1.2rem !important;
+}
+
+.swipe-tabs div div .MuiTab-root {
+  min-height: unset;
+  font-size: 15.5px;
+  text-transform: unset;
+  margin-right: 10px;
+}
+
+.swipe-tabs div div .MuiTab-root span {
+  font-weight: bold;
+}
+
+.swipe-tabs div div .MuiButtonBase-root:focus {
+  border: none;
+  outline: none;
+}
+
+.swipe-tabs div .PrivateTabIndicator-root-1 {
+  height: 3px !important;
+}
+
+.swipe-tabs div .PrivateTabIndicator-colorSecondary-3 {
+  background-color: #FD5068;
+}
+
+.WLY-Container {
+  width: 95px;
+  height: 120px;
+  padding: 2px;
+  border-radius: 5px !important;
+  -webkit-transition: width .2s ease;
+  transition: width .2s ease;
+  -webkit-transition: height .2s ease;
+  transition: height .2s ease;
+  position: relative;
+  border: 3.5px solid #E9AA43;
+}
+
+.WLY-Container:hover {
+  cursor: pointer;
+}
+
+.WLY-pic-container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 3px !important;
+}
+
+.WLY-pic-container .WLY-pic {
+  width: 100%;
+  height: 100%;
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+  background-position: center;
+  background-size: cover;
+}
+
+.WLY-info-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  top: 0%;
+  left: 0%;
+}
+
+.WLY-info {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.WLY-like-number {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  font-size: 13px;
+  color: white;
+  font-weight: 700;
+  background: #020024;
+  background: linear-gradient(138deg, #020024 0%, #dd8a0c 0%, #f0c568 100%);
+  top: 30%;
+  left: 28%;
+}
+
+.WLY-goldenheart {
+  position: absolute;
+  bottom: -8%;
+  left: 27%;
+  width: 30px;
+  height: 18px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.WLY-goldenheart img {
+  width: 100%;
+  height: 100%;
+}
+
+.WLY-likes {
+  position: absolute;
+  font-size: 12px;
+  color: white;
+  font-weight: 700;
+  bottom: 8%;
+  left: 10%;
+}
+
+.messages-tab {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.messages-tab span {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.greetings {
+  padding: 0px 2rem;
+  font-size: 1.1rem;
+  color: #5c5c5c;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .swipe-tabs .MuiTab-root {
+    min-width: unset;
+  }
+}
+
+@media (max-width: 1200px) {
+  .tinder__side {
+    background-color: white;
+  }
+}
+
+@media (max-width: 1025px) {
+  .WLY-Container {
+    -webkit-transition: width .2s ease;
+    transition: width .2s ease;
+    -webkit-transition: height .2s ease;
+    transition: height .2s ease;
+    width: 150px;
+    height: 200px;
+  }
+  .WLY-goldenheart {
+    left: 35%;
+    bottom: -5%;
+  }
+  .WLY-like-number {
+    top: 40%;
+    left: 35%;
+    width: 38px;
+    height: 38px;
+  }
+  .WLY-likes {
+    bottom: 5%;
+  }
+  .tinder__side__navbar {
+    height: 60px;
+  }
+  .tinder__side__name {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .tinder__side {
+    display: none;
+    opacity: 0;
+    min-width: 0px;
+    width: 0px;
+  }
+}
+/*# sourceMappingURL=TinderSide.css.map */
